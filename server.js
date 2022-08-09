@@ -7,6 +7,8 @@ const path = require('path')
 const compression = require('compression')
 // Environment Variable Config
 env.config()
+require("dotenv").config();    
+// const authRoutes = require("./routes/auth");
 
 // Routes
 const authRoutes = require('./routes/auth');
